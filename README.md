@@ -16,18 +16,18 @@ The key objectives of this project are as follows:
 - Enable users to track their workouts, nutrition, and fitness goals.
 - Implement features for setting and achieving fitness milestones.
 - Promote a healthier lifestyle through engagement and motivation.
-- The project is scheduled to begin on [Start Date] and conclude by [End Date].
+- The project is scheduled to begin on March 15, 2023  and conclude by April 20, 2023.
 
 ## 3. Milestones
 
 The project will be divided into several milestones to facilitate its successful completion.
 
 1. Definition of project scope and objectives.
-2. Selection of technologies for mobile app development.
+2. Selection of technologies for web development.
 3. Development of core features, including workout tracking and nutrition logging.
 4. User interface design and gamification elements.
 5. Quality assurance, testing, and bug fixing.
-6. Project documentation and preparation for app store deployment.
+6. Project documentation and preparation for deployment.
 
 ## 4. Deliverables
 
@@ -83,7 +83,7 @@ The project team consists of the following roles and responsibilities:
 
 ### 7.2 Assumptions
 
-1. The development team possesses the required expertise for mobile app development.
+1. The development team possesses the required expertise for web app development.
 2. Third-party services for app hosting and marketing are reliable.
 
 ### 7.3 Constraints
