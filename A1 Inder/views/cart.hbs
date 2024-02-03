@@ -1,0 +1,25 @@
+{{!-- Cart template --}}
+<div class="cart-container">
+    <h1>Your Cart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Class</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each bookings}}
+                <tr>
+                    <td>{{this.class_name}}</td>
+                    <td>${{this.price}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    <h2>Total: ${{total}}</h2>
+    {{!-- //go Back button --}}
+    <form action="/">
+        <input type="submit" value="Go Back">
+    </form>
+</div>

@@ -1,0 +1,309 @@
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  #classes-container {
+    padding: 20px;
+    background-color: #eaeaea;
+  }
+  
+  .class-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* align the text to the center also the image and the button  */
+    text-align: center;
+    
+
+  }
+  
+  .class-card img {
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+  }
+  
+  .class-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .class-card p {
+    margin: 5px 0;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  input:hover {
+    background-color: #555;
+  }
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+    .login-container input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #login{
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      display: block;
+      margin-top: 10px;
+      width: 30%;
+    }
+    #create-account{
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+      display: block;
+      margin-top: 10px;
+      width: 30%;
+    }
+
+  
+
+  
+  .login-container input:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .error-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .error-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .error-container p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .error-container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+/* Add or modify the following classes in your CSS file */
+
+.admin-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 1200px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+
+tr:hover {
+  background-color: #e8e8e8;
+}
+
+
+
+.cart-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.cart-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.success-container {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.success-container h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.success-container p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}

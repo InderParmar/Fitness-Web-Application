@@ -1,0 +1,18 @@
+{{!-- Your Home template --}}
+<div id="classes-container">
+    {{#each classes}}
+    <div class="class-card">
+        <img src="{{this.image}}" alt="{{this.class_name}} class image">
+        <h2>{{this.class_name}}</h2>
+        <p>Length: {{this.length}} minutes</p>
+        <p>Price: ${{this.price}}</p>
+        <form action="/book" method="post">
+        {{!-- //send the values of the respective class in the form --}}
+        <input type="hidden" name="class_name" value="{{this.class_name}}">
+        <input type="hidden" name="length" value="{{this.length}}">
+        <input type="hidden" name="price" value="{{this.price}}">
+        <input type="submit" value="Book Now">
+        </form>
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,26 @@
+{{!-- Admin template --}}
+<div class="admin-container">
+    <h1>Payment Records</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Class</th>
+                <th>Price (before tax)</th>
+                <th>Price Paid</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each payments}}
+                <tr>
+                    <td>{{this.username}}</td>
+                    <td>{{this.class_name}}</td>
+                    <td>${{this.price}}</td>
+                    <td>${{this.total}}</td>
+                    <td>{{this.date}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>

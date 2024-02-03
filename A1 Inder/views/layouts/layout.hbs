@@ -1,0 +1,31 @@
+{{!-- Layout that applies to all pages --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahad's Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fahad's Fitness Gym</h1>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="/">Schedule of Classes</a></li>
+                {{#if isAdmin}}
+                <li id="admin-page"><a href="/Admin">Admin</a></li>
+                {{/if}}
+                {{#if isLoggedIn}}
+                <li><a href="/Cart">Cart</a></li>
+                <li id="login-logout"><a href="/logout">Logout</a></li>
+                {{else}}
+                <li id="login-logout"><a href="/loginPage">Login</a></li>
+                {{/if}}
+            </ul>
+        </nav>
+    </header>
+    <!-- Your page content here -->
+    {{{body}}}
+</body>
+</html>
